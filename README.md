@@ -2,7 +2,7 @@
 
 ```shell
 docker pull trailofbits/eth-security-toolbox
-docker run -it -v $PWD:/code trailofbits/eth-security-toolbox
+docker run -it -v --rm $PWD:/code trailofbits/eth-security-toolbox
 
 solc-select 0.5.11
 cd /code
