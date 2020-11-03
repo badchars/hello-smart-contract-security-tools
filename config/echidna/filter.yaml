@@ -1,0 +1,3 @@
+# echidna config to filter functions
+filterBlacklist: true
+filterFunctions: ["reset1", "reset2"]
