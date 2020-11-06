@@ -2,7 +2,7 @@
 
 ```shell
 docker pull trailofbits/eth-security-toolbox
-docker run -it -v --rm $PWD:/code trailofbits/eth-security-toolbox
+docker run -it --rm -v $PWD:/code trailofbits/eth-security-toolbox
 
 solc-select 0.5.11
 cd /code
@@ -13,7 +13,7 @@ cd /code
 ```shell
 echidna-test contracts/echidna/TestToken.sol
 # if multiple contracts inside a file
-echidna-test contracts/echidna/TestToken.sol --contract TestToken.sol
+echidna-test contracts/echidna/TestToken.sol --contract TestToken
 
 # filter functions
 echidna-test contracts/echidna/Filter.sol --config config/echidna/filter.yaml
