@@ -1,2 +1,5 @@
 crytic-export
 corpus
+mcore_*
+=0.4.24
+venv
