@@ -1,0 +1,4 @@
+testLimit: 10000
+checkAsserts: true
+filterBlacklist: true
+filterFunctions: ["test_add", "test_sub", "test_mul"]
