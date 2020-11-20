@@ -41,6 +41,7 @@ pip3 install -r requirements.txt
 ```shell
 # cli
 manticore <folder or file>
+manticore contract.sol --quick-mode --contract MyContract
 
 # python
 cd contracts/manticore
