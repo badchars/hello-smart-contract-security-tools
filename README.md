@@ -8,6 +8,27 @@ solc-select 0.5.11
 cd /code
 ```
 
+### Slither
+
+```shell
+# slither analysis
+slither --exclude-dependencies .
+
+# quick review
+slither . --print human-summary
+
+slither . --print inheritance-graph
+xdot contracts.dot
+
+slither . --print contract-summary
+
+# in-depth review
+slither . --print call-graph
+slither . --print cfg
+slither . --print function-summary
+slither . --print vars-and-auth
+```
+
 ### Echidna
 
 ```shell
