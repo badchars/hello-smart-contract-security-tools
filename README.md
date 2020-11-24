@@ -69,6 +69,12 @@ cd contracts/manticore
 python3 example_run.py
 ```
 
+### Manticore Verifier
+
+```shell
+manticore-verifier contracts/manticore-verifier/TestToken.sol --contract TestToken
+```
+
 ### TODO
 
 - [ ] echidna openzeppelin
