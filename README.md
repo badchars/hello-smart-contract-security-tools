@@ -27,6 +27,13 @@ slither . --print call-graph
 slither . --print cfg
 slither . --print function-summary
 slither . --print vars-and-auth
+
+# tools
+## check ERC
+slither-check-erc contract.sol contractName
+## auto generate Echinda tests
+slither-prop contract.sol --contract contractName
+
 ```
 
 ### Echidna
