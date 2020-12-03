@@ -31,7 +31,7 @@ slither . --print vars-and-auth
 # tools
 ## check ERC
 slither-check-erc contract.sol contractName
-## auto generate Echinda tests
+## auto generate Echinda tests for ERC20 contract
 slither-prop contract.sol --contract contractName
 
 ```
