@@ -16,7 +16,6 @@ with open(CONTRACT_PATH) as f:
 ### explore all functions ###
 # symbolic_value = m.make_symbolic_value()
 # symbolic_data = m.make_symbolic_buffer(320)
-
 # m.transaction(
 #     caller=user_account,
 #     address=contract.address,
