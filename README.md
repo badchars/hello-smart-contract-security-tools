@@ -8,6 +8,14 @@ solc-select 0.5.11
 cd /code
 ```
 
+### Install Vyper
+
+```shell
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
+pip install vyper
+```
+
 ### Slither
 
 ```shell
