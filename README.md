@@ -22,6 +22,12 @@ pip install vyper
 # slither analysis
 slither --exclude-dependencies .
 
+# save warnings / erros to ignore
+slither . --triage
+
+# reset Slither
+rm slither.db.json
+
 # quick review
 slither . --print human-summary
 
